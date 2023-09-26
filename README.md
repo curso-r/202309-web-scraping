@@ -29,8 +29,12 @@ Fora do horário de aula ou monitoria:
 
 ## Slides
 
-| Slide |
-|:------|
+| Slide                                                                                                           |
+|:----------------------------------------------------------------------------------------------------------------|
+| [01-introducao-ao-curso.html](https://curso-r.github.io/202309-web-scraping/slides/01-introducao-ao-curso.html) |
+| [02-introducao-ao-ws.html](https://curso-r.github.io/202309-web-scraping/slides/02-introducao-ao-ws.html)       |
+| [03-html.html](https://curso-r.github.io/202309-web-scraping/slides/03-html.html)                               |
+| [04-dinamico.html](https://curso-r.github.io/202309-web-scraping/slides/04-dinamico.html)                       |
 
 ## Scripts utilizados em aula
 
