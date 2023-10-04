@@ -99,7 +99,83 @@ tabela_especifica <- GET("https://brasilapi.com.br/api/fipe/marcas/v1/carros", q
 
 tabela_especifica_parse <- content(tabela_especifica, simplifyDataFrame = TRUE)
 
+
+# exercícios --------------------------------------------------------------
+
+
 GET(
   "https://brasilapi.com.br/api/fipe/preco/v1/56",
   query = list(tabela_referencia = '104')
 )
+
+library(httr)
+
+u_banks <- "https://brasilapi.com.br/api/banks/v1"
+
+resposta <- GET(u_banks)
+
+content(resposta, simplifyDataFrame = TRUE) |> View()
+
+# 2. Pesquise o preço de um carro de interesse
+# Dica: veja nos exemplos de aula uma forma de achar um código de carro
+# Dica: qual endpoint devemos utilizar?
+
+#codigo de carro não tem na API...
+
+u_preco <- 'https://brasilapi.com.br/api/fipe/preco/v1/002062-1'
+
+resposta_preco <- GET(u_preco)
+
+content(resposta_preco, simplifyDataFrame = TRUE) |> View()
+
+# 3. Pesquise o preço de um carro de interesse, mas na tabela de dez/2019
+# você identificou alguma diferença?
+
+u_tabelas <- 'https://brasilapi.com.br/api/fipe/tabelas/v1'
+
+resposta_tabelas <- GET(u_tabelas)
+
+content(resposta_tabelas, simplifyDataFrame = TRUE) |> View()
+
+resposta_preco_dezembro_2019 <- GET(u_preco, query = list(
+  tabela_referencia = '249'
+))
+
+content(resposta_preco_dezembro_2019, simplifyDataFrame = TRUE) |> View()
+
+# 4. Construa uma base de dados de todos os feriados nacionais entre 2000 e 2030
+
+u_feriados <- 'https://brasilapi.com.br/api/feriados/v1/'
+
+feriados_2000 <- GET(paste0(u_feriados, "2000"))
+
+content(feriados_2000, simplifyDataFrame = TRUE)
+
+# vamos ter que repetir isso 31 vezes...
+
+library(dplyr)
+
+tabelona_feriados <- NULL
+
+for(ano in 2000:2030){
+  feriados <- GET(paste0(u_feriados, ano))
+
+  tabelona_feriados <- bind_rows(tabelona_feriados,
+                                 content(feriados, simplifyDataFrame = TRUE))
+
+}
+
+# preco de carro na FIPE --------------------------------------------------
+
+## infelizmente ainda não dá para pegar a lista de carros pela Brasil API
+## https://github.com/BrasilAPI/BrasilAPI/issues/373
+
+## Mas nós podemos pegar aqui: https://www.tabelafipebrasil.com/fipe/carros
+## (depois podemos fazer isso via web scraping!)
+
+endpoint_preco <- "/fipe/preco/v1/"
+cod_veiculo <- "060006-7"
+u_preco <- paste0(u_base, endpoint_preco, cod_veiculo)
+r_preco <- GET(u_preco, query = list(tabela_referencia = "271"))
+
+content(r_preco, simplifyDataFrame = TRUE)
