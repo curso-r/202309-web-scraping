@@ -43,10 +43,14 @@ Fora do horário de aula ou monitoria:
 
 ## Práticas
 
-| Exemplo                                                                                 |
-|:----------------------------------------------------------------------------------------|
-| [01-brasilapi.R](https://curso-r.github.io/202309-web-scraping/praticas/01-brasilapi.R) |
-| [02-sabesp.R](https://curso-r.github.io/202309-web-scraping/praticas/02-sabesp.R)       |
+| Exemplo                                                                                       |
+|:----------------------------------------------------------------------------------------------|
+| [01-brasilapi.R](https://curso-r.github.io/202309-web-scraping/praticas/01-brasilapi.R)       |
+| [02-sabesp.R](https://curso-r.github.io/202309-web-scraping/praticas/02-sabesp.R)             |
+| [03-chatgpt.R](https://curso-r.github.io/202309-web-scraping/praticas/03-chatgpt.R)           |
+| [04-html-exemplo.R](https://curso-r.github.io/202309-web-scraping/praticas/04-html-exemplo.R) |
+| [05-chancedegol.R](https://curso-r.github.io/202309-web-scraping/praticas/05-chancedegol.R)   |
+| [06-anatel.R](https://curso-r.github.io/202309-web-scraping/praticas/06-anatel.R)             |
 
 ## Lição de casa
 
