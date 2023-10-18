@@ -50,7 +50,9 @@ Fora do horário de aula ou monitoria:
 | [03-chatgpt.R](https://curso-r.github.io/202309-web-scraping/praticas/03-chatgpt.R)           |
 | [04-html-exemplo.R](https://curso-r.github.io/202309-web-scraping/praticas/04-html-exemplo.R) |
 | [05-chancedegol.R](https://curso-r.github.io/202309-web-scraping/praticas/05-chancedegol.R)   |
+| [06-anatel-caio.R](https://curso-r.github.io/202309-web-scraping/praticas/06-anatel-caio.R)   |
 | [06-anatel.R](https://curso-r.github.io/202309-web-scraping/praticas/06-anatel.R)             |
+| [07-jobs.R](https://curso-r.github.io/202309-web-scraping/praticas/07-jobs.R)                 |
 
 ## Lição de casa
 
