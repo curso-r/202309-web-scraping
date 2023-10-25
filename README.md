@@ -53,6 +53,9 @@ Fora do horário de aula ou monitoria:
 | [06-anatel-caio.R](https://curso-r.github.io/202309-web-scraping/praticas/06-anatel-caio.R)   |
 | [06-anatel.R](https://curso-r.github.io/202309-web-scraping/praticas/06-anatel.R)             |
 | [07-jobs.R](https://curso-r.github.io/202309-web-scraping/praticas/07-jobs.R)                 |
+| [08-tse.R](https://curso-r.github.io/202309-web-scraping/praticas/08-tse.R)                   |
+| [09-pesqele.R](https://curso-r.github.io/202309-web-scraping/praticas/09-pesqele.R)           |
+| [10-datajud.R](https://curso-r.github.io/202309-web-scraping/praticas/10-datajud.R)           |
 
 ## Lição de casa
 
