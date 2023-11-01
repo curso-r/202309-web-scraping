@@ -56,6 +56,10 @@ Fora do horário de aula ou monitoria:
 | [08-tse.R](https://curso-r.github.io/202309-web-scraping/praticas/08-tse.R)                   |
 | [09-pesqele.R](https://curso-r.github.io/202309-web-scraping/praticas/09-pesqele.R)           |
 | [10-datajud.R](https://curso-r.github.io/202309-web-scraping/praticas/10-datajud.R)           |
+| [11-sus.R](https://curso-r.github.io/202309-web-scraping/praticas/11-sus.R)                   |
+| [12-trt1.R](https://curso-r.github.io/202309-web-scraping/praticas/12-trt1.R)                 |
+| [13-simei.R](https://curso-r.github.io/202309-web-scraping/praticas/13-simei.R)               |
+| [14-tjba.R](https://curso-r.github.io/202309-web-scraping/praticas/14-tjba.R)                 |
 
 ## Lição de casa
 
